@@ -1,12 +1,12 @@
 -- settings (so u dont have to scroll)
 local settings = {
-    folder_name = "zephyrus"; -- stupid shit
-    default_accent = Color3.fromRGB(61, 100, 227); -- also stupid shit
+    folder_name = "eonware.public"; -- hvh cheat (BAD)
+    default_accent = Color3.fromRGB(61, 100, 227); -- nigger ascent fuck
 };
 
-local drawing = loadstring(game:HttpGet("https://github.com/GhostDuckyy/UI-Libraries/blob/main/DEADCELL%20REMAKE/misc/extension.lua?raw=true"))();
-local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/utility/main/Tween.lua"))()
-local bxor = loadstring(game:HttpGet('https://github.com/GhostDuckyy/GhostDuckyy/blob/main/Tool/bxor.lua?raw=true'))()
+local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/aidarkunakbaev2/actualDeadCell/refs/heads/main/extension.lua"))();  -- i fixed ghostduckyy shit it works fine now
+local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/aidarkunakbaev2/actualDeadCell/refs/heads/main/tween.lua"))()  -- vozoid deleted account XD
+local bxor = loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostDuckyy/GhostDuckyy/refs/heads/main/Tools/bxor.lua'))()  --skid final boss
 
 -- // UI LIBRARY
 if not isfolder(settings.folder_name) then
@@ -14,7 +14,7 @@ if not isfolder(settings.folder_name) then
     makefolder(settings.folder_name.."/configs");
     makefolder(settings.folder_name.."/assets");
 end;
-
+--DANGER ZONE DONT EDIT
 local images = {
     ['gradient90'] = "https://raw.githubusercontent.com/portallol/luna/main/Gradient.png";
     ['gradient180'] = "https://raw.githubusercontent.com/portallol/luna/main/Gradient180.png";
